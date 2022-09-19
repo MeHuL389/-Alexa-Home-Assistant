@@ -93,7 +93,8 @@ if __name__=="__main__":
 
         elif' the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
-            speak(f"Sir, The time is {strTime}")    
+            speak(f"Sir, The time is {strTime}") 
+            print(strTime)
 
         elif 'open spotify' in query:
             spotifyPath = "C:\\Users\\mehul\\AppData\\Roaming\\Spotify\\Spotify.exe"
